@@ -1,0 +1,41 @@
+.login__name {
+    color: hsl(211, 100%, 54%);
+    font-weight: 600;
+}
+
+.nav-bar-link {
+    text-decoration: none;
+    color: black;
+}
+
+.password {
+    position: relative;
+}
+
+#password--icon {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+}
+
+.password--show,
+#password--icon {
+    display: none;
+}
+
+.login__name-content {
+    font-weight: normal;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+    .login__name {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .login__name {
+        font-size: 4rem;
+    }
+}

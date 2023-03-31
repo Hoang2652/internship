@@ -1,0 +1,14 @@
+.unit-image {
+   width: 3008px;
+   height: 624px;
+   background-size: 3008px 624px;
+   background-repeat: no-repeat;
+   position: absolute;
+   left: calc(50% + 0px);
+   right: auto;
+   bottom: 0;
+   top: auto;
+   transform: translate(-50%);
+   z-index: 1;
+   background-image: url(https://www.apple.com/v/home/ay/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+}

@@ -1,0 +1,58 @@
+form .indicator {
+    height: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+
+form .indicator span {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: lightgrey;
+    border-radius: 5px;
+}
+
+form .indicator span:nth-child(2) {
+    margin: 0 3px;
+}
+
+.text {
+    text-align: initial;
+}
+
+form .indicator span.active:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.indicator span.pass_weak:before {
+    background-color: #ff4757;
+}
+
+.indicator span.pass_medium:before {
+    background-color: orange;
+}
+
+.indicator span.pass_strong:before {
+    background-color: #23ad5c;
+}
+
+form .text.text_weak {
+    color: #ff4757;
+}
+
+form .text.text_medium {
+    color: orange;
+}
+
+form .text.text_strong {
+    color: #23ad5c;
+}
