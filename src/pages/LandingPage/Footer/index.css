@@ -1,0 +1,13 @@
+.container-footer {
+   font-size: 12px;
+}
+
+.container-footer ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.container-footer li {
+   padding-bottom: 10px;
+}

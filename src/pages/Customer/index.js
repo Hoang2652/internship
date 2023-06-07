@@ -121,6 +121,7 @@ export default function Customer() {
       };
       setOpen(true);
       setDeleted(options);
+      console.log(deleted);
    };
 
    const handleClose = () => {

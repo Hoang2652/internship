@@ -1,0 +1,12 @@
+.header-popup {
+   margin-top: '20px';
+}
+.header-popup ul {
+   list-style: none;
+   margin: 0;
+   padding: 20px 0 0 0;
+}
+
+.header-popup li {
+   padding-bottom: 5px;
+}

@@ -1,0 +1,112 @@
+.MovieCarouselTrack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+}
+
+.Container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* position: absolute; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+    position: relative;
+}
+
+.MovieCarousel .slick-list {
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+    
+    width: 3400px;
+    height: 600px;
+}
+
+.MovieCarousel .slick-track {
+    margin-left: 15vw;    
+}
+
+.MovieCarousel {
+    background-color: white;
+    position: relative;
+    width: 100vw;
+    height: 634px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .slick-slide {
+    opacity: 0.5;
+    transition: all 800ms ease-out;
+}
+
+.slick-slide .PosterInfo  {  
+    opacity: 0;
+    margin-top: 25px;
+    transition: all 1000ms ease-out
+}
+
+.slick-current {
+    opacity: 1;
+    transition: all 800ms ease-in
+}
+
+.slick-current .PosterInfo {
+    opacity: 1;
+    margin-top: 0px;
+    transition: all 1000ms ease-in
+} */
+
+.slick-prev {
+    left: auto!important;
+}
+
+.slick-next {
+    right: auto!important;
+}
+
+.slick-prev:before {
+    content: none!important;
+}
+
+.slick-next:before {
+    content: none!important;
+}
+
+.BlurSlide {  
+    opacity: 0.5;
+    transition: all 800ms ease-out
+}
+
+.BlurSlide > .PosterInfo  {  
+    opacity: 0;
+    margin-top: 25px;
+    transition: all 1000ms ease-out
+}
+
+.VisibleTransition {  
+    opacity: 1;
+    transition: all 800ms ease-in
+}
+
+.VisibleTransition > .PosterInfo {
+    opacity: 1;
+    margin-top: 0px;
+    transition: all 1000ms ease-in
+}
